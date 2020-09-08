@@ -1,10 +1,45 @@
 ﻿@{
-    ViewBag.Title = "Arkaham";
+    ViewBag.Title = "MANAGEMENT";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="jumbotron">
+@*<div class="jumbotron">
     <h1>Siemens </h1>
     <p class="lead">WEB Development Service.</p>
     <p><a href="https://www.siemens.com" class="btn btn-primary btn-lg">Digital Solutions &raquo;</a></p>
+</div>*@
+
+<div class="tBig">
+    Management Administration Service
 </div>
 
+<div class="card userColor">    
+    <a class="none" href="~/Users">
+        <span class="fa fa-user hIcon"></span>
+        @*Users*@
+    </a>  
+</div>
+<div class="card depColor">    
+    <a class="none" href="~/Departments">
+        <span class="fa fa-building hIcon"></span>
+        @*Deparment*@
+    </a>
+</div>
+<div class="card roleColor">
+    <a class="none" href="~/Roles">
+        <span class="fa fa-sitemap hIcon"></span>
+        @*Role*@
+    </a>
+</div>
+<div class="card secColor">
+    <a class="none" href="~/Home/SecureMethod">
+        <span class="fa fa-lock hIcon"></span>
+        @*Secure*@
+    </a>
+</div>
+<div class="card nsecColor">
+    <a class="none" href="~/Home/NonSecureMethod">
+        <span class="fa fa-unlock hIcon"></span>
+        @*Non Secure*@
+    </a>
+</div>

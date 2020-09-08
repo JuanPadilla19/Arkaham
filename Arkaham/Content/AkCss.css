@@ -1,0 +1,81 @@
+﻿body {
+    background-color:whitesmoke;
+    margin:0;
+    padding:0;
+}
+.tBig {
+    color: black;
+    font-size: 200%;
+    padding: 5%;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 2px 2px grey;
+    font-family: 'Siemens Sans';
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition:all 0.3s ease-in-out;
+    width: 25%;
+    height:200px;
+    border-radius: 5px;
+    float: left;
+    text-align:center;
+    line-height:200px;
+    font-size:25px;
+    font-weight:bold;
+    color:white;    
+    font-family:'Siemens Sans';
+    margin:2%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    font-size: 27px;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.userColor {
+    background: #7C4DFF;
+}
+
+.depColor {
+    background: #455A64;
+}
+
+.roleColor {
+    background: #40C4FF;
+}
+
+.secColor {
+    background: #B2FF59;
+}
+
+.nsecColor {
+    background: #5D4037;
+}
+
+.none {
+    text-decoration:none;
+    color:black;
+}
+
+.none:hover {
+    text-decoration: none;
+    color:white;
+}
+
+.hIcon{
+    font-size:400%;
+    text-align:right;
+    margin:10% 10%;
+}
